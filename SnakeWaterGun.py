@@ -9,7 +9,7 @@ Following  are  the  rules  of  the  game:
 3. Gun vs. Snake: Gun will kill the snake and win. 
 # In[1]:
 
-
+''''bash
 def snakeWaterGun (comp,player):
     if comp == player:
         return None
@@ -28,7 +28,7 @@ def snakeWaterGun (comp,player):
             return False
         elif player == 'w':
             return True      
-
+''''
 
 # In[3]:
 
